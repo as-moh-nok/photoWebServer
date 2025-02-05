@@ -28,7 +28,7 @@
   config.pixel_format = PIXFORMAT_JPEG;
 }*/
 
-bool cam_init(camera_config_t &config)
+bool camera_init(camera_config_t &config)
 {
   esp_err_t err = esp_camera_init(&config);
   if (err != ESP_OK) {

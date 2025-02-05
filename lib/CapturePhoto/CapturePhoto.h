@@ -6,7 +6,7 @@
 
 
 void camera_config(camera_config_t &config);
-void camera_init(camera_config_t &config);
+bool camera_init(camera_config_t &config);
 void warmup_sensor(int counter);
 camera_fb_t* capture_photo(void);
 
