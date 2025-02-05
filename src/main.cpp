@@ -39,8 +39,8 @@
 #define PCLK_GPIO_NUM   22
 
 // WiFi credentials (better to use a configuration file instead of hardcoding)
-const char* ssid = "hwa";
-const char* password = "wifi1373";
+const char* ssid = "your_ssid";
+const char* password = "your_password";
 
 #define PHOTO_PATH "/image.jpg"  // File path for the captured image
 AsyncWebServer server(80);  // Global web server instance

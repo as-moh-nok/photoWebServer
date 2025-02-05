@@ -1,7 +1,7 @@
 # ESP32-CAM Web Server with Photo Capture
 
 ## Overview
-This project implements a **web server** using an **ESP32-CAM** module that captures images and displays them via a web interface. The captured image is stored on an **SD card**, and the webpage is served using **SPIFFS**.
+This project implements a **web server** using an **ESP32-CAM** module that captures images and displays them via a web interface. The captured image is stored on an **SD card**.
 
 ## Features
 - **WiFi-enabled Web Server** for viewing and capturing images
@@ -54,5 +54,5 @@ Access the web interface using:
 This project is **open-source** and licensed under the **MIT License**.
 
 ## Author
-Developed by **Your Name** (your.email@example.com)
+Developed by **Asma Mohammadi** (a.mohamma.nok@gmail.com)
 
